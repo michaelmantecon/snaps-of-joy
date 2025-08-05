@@ -123,3 +123,66 @@ nav ul {
     max-width: 800px;
     margin: 0 auto;
 }
+
+/* About Section Stylings */
+
+.about {
+    background-color: #f4f1fa;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;  
+    text-align: left;
+}
+
+/* Portfolio Section Stylings */
+
+.portfolio {
+    background-color: #dcd9e6;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.portfolio h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.portfolio p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;  
+    text-align: left;
+}
+
+/* Portfolio Image Stylings */
+
+/* Services Section Stylings */
+

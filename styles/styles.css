@@ -186,3 +186,99 @@ nav ul {
 
 /* Services Section Stylings */
 
+.services {
+    background-color: #f4f1fa;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.services p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;  
+    text-align: left;
+}
+
+/* Contact Section Stylings */
+
+.contact {
+    background-color: #e9e3f1;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;  
+    text-align: left;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact button {
+    background-color: #4a3f5a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact button:hover {
+    background-color: #6c5b7b;
+}
+
+.contact button:active {
+    background-color: #3e3248;
+}
+
+.contact label {
+    align-self: flex-start;
+    font-weight: bold;
+}

@@ -29,7 +29,7 @@ em {
 }
 
 em:hover {
-  color: blue;
+    color: #6c5b7b; 
 }
 
 
@@ -281,4 +281,38 @@ nav ul {
 .contact label {
     align-self: flex-start;
     font-weight: bold;
+}
+
+/* Footer Stylings */
+
+footer {
+    background-color: #4a3f5a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #e6e5e7;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #e6e5e7;
+    text-decoration: none;
+}   
+
+footer a:hover {
+    color: #d1cce0;
 }

@@ -116,3 +116,10 @@ nav ul {
     gap: 20px;
     margin-bottom: 20px;
 }
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}

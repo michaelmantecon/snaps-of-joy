@@ -1,0 +1,28 @@
+/* Import Google Fonts */
+
+@font-face {
+    font-family: 'Borel'; 
+    src: url('/assets/fonts/Borel-Regular.ttf') format('truetype');
+}
+
+/* Body Stylings */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e5e7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Header Stylings */
+
+h1 {
+    font-family: 'Borel', serif;
+    font-size: 2.5em;
+}

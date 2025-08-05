@@ -1,0 +1,29 @@
+/* Responsive Design CSS */
+
+/* Mobile Styles */
+@media (max-width: 600px) { 
+    /* Base styles for mobile devices */
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .container {
+        width: 100%;
+        padding: 5px;
+    }
+    .header, .footer {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Hide Multiple Images in Hero */
+    .hero img:nth-of-type(2), img:nth-of-type(3) {
+        display: none;
+    }
+    /* Hero Styles */
+    
+}               

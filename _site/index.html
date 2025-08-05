@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snaps of Joy</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Snaps of <em>Joy</em></a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Experience the World through Snaps of Joy</h2>
+            <div class="image-container">
+                <img src="assets/images/index/hero.JPG" alt="a sea turtle swimming towards the camera">
+                <img src="assets/images/index/hero.JPG" alt="a sea turtle swimming towards the camera">
+                <img src="assets/images/index/hero.JPG" alt="a sea turtle swimming towards the camera">
+            </div>
+            <p>Welcome to Snaps of Joy, where every photograph tells a story. Explore our portfolio and discover the beauty captured through the lens.</p>
+        </section>
+        <section class="about">
+            <h2>About Kim</h2>
+            <p>Kim Cole is a photographer based in Prescott, Arizona. From a young age she had a passion for capturing moments and her perspective of the world. 
+                She enjoys photographing the natural beauty of Arizona and the world, as well as the people and places that make it special.
+                Currently, she is looking to expand her portfolio and share her work with a wider audience.
+                She would also like to find clients who are looking for a photographer to capture their own special moments.
+                If you are interested in working with Kim, please reach out through our <a href="#contact">contact form</a> and she will make it her mission to get the perfect
+                perspective on your cherished scenes.
+            </p>
+        </section>
+        <section class="portfolio">
+            <h2>Kim's Favorite Snaps</h2>
+            <p>These are some, but certainly not all, of Kim's favorite captures.</p>
+            <div class="image-container">
+                <!-- Images with id of "mobile-hide" are hidden in mobile view for a better layout -->
+                <div class="horizontal">
+                    <img src="assets/images/index/snap1.jpg" alt="">
+                    <img src="assets/images/index/snap3.jpg" alt="">
+                </div>
+                <img id="mobile-hide" src="assets/images/index/snap2.jpg" alt="">
+                <div class="horizontal">
+                    <img src="assets/images/index/snap5.jpg" alt="">
+                    <img src="assets/images/index/snap6.JPG" alt="">
+                </div>
+                <img id="mobile-hide" src="assets/images/index/snap4.jpg" alt="">
+            </div>
+            <p>Find more on her <a href="portfolio.html">portfolio pages</a>.</p>
+        </section>
+        <section class="services">
+            <h2>Services Offered</h2>
+            <p>Kim offers a range of photography services.</p>
+            <p>If you have a specific project in mind, please reach out to discuss how Kim can help bring your vision to life.</p>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Kim</h2>
+            <p>If you would like to get in touch with Kim, please fill out the form below.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-menu">
+            <h1><a href="index.html">Snaps of <em>Joy</em></a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="credits">
+            <p>© 2025 Snaps of Joy. All rights reserved.</p>
+            <p>Like this website? Proudly designed and developed by Michael Mantecon of Ink and Interface Design.</p> 
+        </div>
+        <div class="socials">
+            <!-- Add social media links when available -->
+            <p>Social Media Links Coming Soon!</p>
+        </div>
+    </footer>
+</body>
+</html>

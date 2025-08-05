@@ -1,0 +1,358 @@
+/* Import Google Fonts */
+
+@font-face {
+    font-family: 'Borel'; 
+    src: url('/assets/fonts/Borel-Regular.ttf') format('truetype');
+}
+
+/* Body Stylings */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6e5e7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+em {
+  transition: color 0.3s ease-in-out;
+}
+
+em:hover {
+    color: #6c5b7b; 
+}
+
+
+/* Header Stylings */
+
+h1 {
+    font-family: 'Borel', serif;
+    font-size: 5em;
+    font-style: italic;
+    padding: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 a {
+        color: #4a3f5a;
+        text-decoration: none;
+}
+
+h1 a:hover {
+    color: #6c5b7b;
+}
+
+header {
+    background-color: #e9e3f1;
+    padding: 20px;
+    border: 2px solid #d1cce0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+/* Hero Section Stylings */
+
+.hero {
+    background-color: #b6b6d5;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.hero img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+    filter: grayscale(100%);
+}
+
+.hero img:nth-of-type(2) {
+    filter: grayscale(100%);
+}
+
+.hero img:nth-of-type(2):hover {
+    filter: grayscale(0%);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* About Section Stylings */
+
+.about {
+    background-color: #f4f1fa;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;  
+    text-align: left;
+}
+
+/* Portfolio Section Stylings */
+
+.portfolio {
+    background-color: #dcd9e6;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.portfolio h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.portfolio p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;  
+    text-align: left;
+}
+
+/* Portfolio Image Stylings */
+
+.portfolio .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.portfolio img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+    border: 2px solid #d1cce0;
+}
+
+.portfolio img:hover {
+    transform: scale(1.05);
+}
+
+.horizontal img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.horizontal img:hover {
+    transform: scale(1.05);
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Services Section Stylings */
+
+.services {
+    background-color: #f4f1fa;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.services p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;  
+    text-align: left;
+}
+
+/* Contact Section Stylings */
+
+.contact {
+    background-color: #e9e3f1;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4a3f5a;
+}
+
+.contact p {
+    font-size: 1.2em;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;  
+    text-align: left;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact button {
+    background-color: #4a3f5a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact button:hover {
+    background-color: #6c5b7b;
+}
+
+.contact button:active {
+    background-color: #3e3248;
+}
+
+.contact label {
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+/* Footer Stylings */
+
+footer {
+    background-color: #4a3f5a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #e6e5e7;
+    line-height: 1.6;
+    text-align: center;
+}
+
+footer h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #e6e5e7;
+    text-decoration: none;
+}   
+
+footer a:hover {
+    color: #d1cce0;
+}

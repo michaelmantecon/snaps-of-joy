@@ -184,6 +184,46 @@ nav ul {
 
 /* Portfolio Image Stylings */
 
+.portfolio .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.portfolio img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+    border: 2px solid #d1cce0;
+}
+
+.portfolio img:hover {
+    transform: scale(1.05);
+}
+
+.horizontal img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.horizontal img:hover {
+    transform: scale(1.05);
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 /* Services Section Stylings */
 
 .services {

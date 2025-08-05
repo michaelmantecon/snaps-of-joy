@@ -45,6 +45,7 @@
             <h2>Kim's Favorite Snaps</h2>
             <p>These are some, but certainly not all, of Kim's favorite captures.</p>
             <div class="image-container">
+                <!-- Add images for portfolio section -->
                 <img src="" alt="">
                 <img src="" alt="">
                 <img src="" alt="">
@@ -54,8 +55,27 @@
             </div>
             <p>Find more on her <a href="portfolio.html">portfolio pages</a>.</p>
         </section>
-        <section class="services"></section>
-        <section class="contact" id="contact"></section>
+        <section class="services">
+            <h2>Services Offered</h2>
+            <p>Kim offers a range of photography services.</p>
+            <p>If you have a specific project in mind, please reach out to discuss how Kim can help bring your vision to life.</p>
+        </section>
+        <section class="contact" id="contact">
+            <h2>Contact Kim</h2>
+            <p>If you would like to get in touch with Kim, please fill out the form below.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="footer-menu">

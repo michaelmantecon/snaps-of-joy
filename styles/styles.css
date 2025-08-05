@@ -20,9 +20,51 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #0056b3;
+}
+
+em {
+  transition: color 0.3s ease-in-out;
+}
+
+em:hover {
+  color: blue;
+}
+
+
 /* Header Stylings */
 
 h1 {
     font-family: 'Borel', serif;
-    font-size: 2.5em;
+    font-size: 5em;
+    font-style: italic;
+    padding: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 a {
+        color: #4a3f5a;
+        text-decoration: none;
+}
+
+h1 a:hover {
+    color: #6c5b7b;
+}
+
+header {
+    background-color: #e9e3f1;
+    padding: 20px;
+    border: 2px solid #d1cce0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
 }
